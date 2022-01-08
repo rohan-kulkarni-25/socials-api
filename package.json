@@ -1,0 +1,19 @@
+{
+  "name": "socials-api",
+  "version": "1.0.0",
+  "description": "This is an API which will provide details about my socials",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohan Kulkarni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
